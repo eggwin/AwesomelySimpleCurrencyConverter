@@ -1,0 +1,32 @@
+{
+  "name": "awesomelysimplecurrencyconverter",
+  "version": "0.1.0",
+  "description": "A very simple currency converter that converts a currency from one to another. Utilizes the latest information from open exchanges.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter nyan ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggwin/AwesomelySimpleCurrencyConverter.git"
+  },
+  "keywords": [
+    "currency",
+    "conversions",
+    "convert"
+  ],
+  "author": "Eugene Hourany <ehourany@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eggwin/AwesomelySimpleCurrencyConverter/issues"
+  },
+  "homepage": "https://github.com/eggwin/AwesomelySimpleCurrencyConverter#readme",
+  "devDependencies": {
+    "chai": "^3.1.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "money": "^0.2.0",
+    "open-exchange-rates": "^0.3.0"
+  }
+}
